@@ -1,0 +1,196 @@
+.emblem{
+    width: 5rem;
+    padding-right: 2rem;
+}
+
+.landingPage-heading-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.landingPage-btn, .update-btn{
+    padding: 1rem 6rem;
+    margin-top: 4rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    outline: none !important;
+    border: none !important;
+    background-color: rgb(28, 199, 28);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.welcome-p{
+    margin-top: 5rem;
+    font-size: 2.4rem;
+    width: 50%;
+}
+
+/* small devices */
+@media screen and (max-width: 400px){
+    
+    .landingPage-mainDiv{
+        padding: 0 2rem;
+    }
+
+    .welcome-p{
+        width: 86%;
+    }
+
+    .landingPage-btn{
+        font-size: 1.5rem;
+        padding: 1rem 3rem;
+    }
+
+    html{
+        font-size: 80%;
+    }
+}
+
+/* Button Starts */
+
+.button {
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    border-width: 0;
+    padding: 0 8px 12px;
+    min-width: 10em;
+    box-sizing: border-box;
+    background: transparent;
+    font: inherit;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  .button-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    padding: 8px 16px;
+    transform: translateY(0);
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, .25);
+    transition-property: transform;
+    transition-duration: .2s;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  .button:active .button-top {
+    transform: translateY(6px);
+  }
+  
+  .button-top::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    background-image: radial-gradient(#cd3f64, #9d3656);
+    text-align: center;
+    color: #fff;
+    box-shadow: inset 0 0 0px 1px rgba(255, 255, 255, .2), 0 1px 2px 1px rgba(255, 255, 255, .2);
+    transition-property: border-radius, padding, width, transform;
+    transition-duration: .2s;
+  }
+  
+  .button:active .button-top::after {
+    padding: 0 2px;
+  }
+  
+  .button-bottom {
+    position: absolute;
+    z-index: -1;
+    bottom: 4px;
+    left: 4px;
+    border-radius: 8px / 16px 16px 8px 8px;
+    padding-top: 6px;
+    width: calc(100% - 8px);
+    height: calc(100% - 10px);
+    box-sizing: content-box;
+    background-color: #803;
+    background-image: radial-gradient(4px 8px at 4px calc(100% - 8px), rgba(255, 255, 255, .25), transparent), radial-gradient(4px 8px at calc(100% - 4px) calc(100% - 8px), rgba(255, 255, 255, .25), transparent), radial-gradient(16px at -4px 0, white, transparent), radial-gradient(16px at calc(100% + 4px) 0, white, transparent);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5), inset 0 -1px 3px 3px rgba(0, 0, 0, .4);
+    transition-property: border-radius, padding-top;
+    transition-duration: .2s;
+  }
+  
+  .button:active .button-bottom {
+    border-radius: 10px 10px 8px 8px / 8px;
+    padding-top: 0;
+  }
+  
+  .button-base {
+    position: absolute;
+    z-index: -2;
+    top: 4px;
+    left: 0;
+    border-radius: 12px;
+    width: 100%;
+    height: calc(100% - 4px);
+    background-color: rgba(0, 0, 0, .15);
+    box-shadow: 0 1px 1px 0 rgba(255, 255, 255, .75), inset 0 2px 2px rgba(0, 0, 0, .25);
+  }
+/* Button Ends */
+
+/* Herosection Starts */
+/* Hero section container */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+    padding: 20px; 
+    /* background: url(../Images/wave2.svg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* border: 3px solid red; */
+}
+
+/* Hero content */
+.hero-content {
+    text-align: center;
+}
+
+/* Heading */
+.hero-content h1 {
+    font-size: 4.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.newp {
+    font-size: 3.2rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 3px 68px;
+    color: #333; /* Set the color as needed */
+}
+
+#butty{
+    margin-top: 25px;
+}
+
+#wave {
+    animation: waveAnimation 10s linear infinite;
+}
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* Herosection Ends  */

@@ -1,0 +1,11 @@
+.explore-result {
+    width: 1150px;
+    color: white;
+    background-image: url('../images/Shiny.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 6px solid black;
+    margin-bottom: 40px;
+    margin-top: 10px;
+
+}
