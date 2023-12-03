@@ -1,4 +1,4 @@
-# Decentralized Tender Allocation System 
+# SecureBid : Decentralized Tender Allocation System 
 This is blockchain based Tender Allocation System in which There are superadmin , Admins and normal vendors who can see and bid on tenders which are there . Tenders can be Assigned to vendors who had applied for tenders And all things will  be done with blockchain . 
 
 # Tools used:
