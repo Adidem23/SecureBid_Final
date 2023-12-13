@@ -15,4 +15,4 @@ This is blockchain based Tender Allocation System in which There are superadmin 
 https://drive.google.com/file/d/1GNvsgbYNx4jV8ruzS7LspE2a-krA4Rbu/view?usp=drive_link
 
 # Deployed Site Link 
-
+https://final-edi.vercel.app/
